@@ -1,9 +1,9 @@
-title: zhyine's blog # The title of the blog
+title: RayZhao's blog # The title of the blog
 author: zhyine # Your name
 email: 758217673yj@gmail.com # your email shown in the footer
 url: https://zhyine.github.io # this is your site's root address.
 description: > # this means to ignore newlines until "show_excerpts:"
-  A clean and minimalist theme for Jekyll.
+  Parallel in being. | Serial in doing.
 favicon: "./favicon.png" # set the favicon of the site
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -11,7 +11,7 @@ show_excerpts: false # set to true to show excerpts on the homepage
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 moving:
   avatar_url: "https://s2.loli.net/2024/03/01/1gFlrBJ4WMq83tw.jpg" # avatar in about page
-  about_you: a short description about you. # short description about you in about page
+  about_you: Parallel in being. | Serial in doing. # short description about you in about page
   date_format: "%b %d" # date format of posts in home page
   back_to: "Home" # In the post page, you have a back button above the title, you can custom the text by yourself.
 
@@ -42,9 +42,12 @@ moving:
     #   instance:
 
 # Build settings
-# theme: moving # note, please use huangyz0918/moving if you want to publish to Github Pages.
-remote_theme: huangyz0918/moving
+theme: moving # note, please use huangyz0918/moving if you want to publish to Github Pages.
+# remote_theme: huangyz0918/moving
+
+highlighter: rouge
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - premonition
